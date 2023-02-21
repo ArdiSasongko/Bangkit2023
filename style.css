@@ -1,0 +1,31 @@
+.container{
+    background-color: blue;
+    padding: 20px 15px;
+}
+.paragraft-1{
+    padding: 20px 15px;
+    background-color: aqua;
+    font-size: medium;
+    margin: 15px;
+}
+
+.paragraft-1 > p{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.paragraft-1 > ol{
+    font-style: italic;
+}
+
+.paragraft-2{
+    padding: 20px 15px;
+    background-color: antiquewhite;
+    margin: 15px;
+}
+
+.paragraft-3{
+    padding: 20px 15px;
+    background-color: yellow;
+    margin: 15;
+}
