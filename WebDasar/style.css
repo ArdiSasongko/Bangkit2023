@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@media only screen and (min-width: 600px){
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: inline;
+}
+
+/* main{
+    padding: 20px;
+} */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;;
+}
+
+.banner{
+    background-color:rgb(253, 137, 137);
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.footer{
+    background-color:rgb(253, 137, 137);
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.banner span{
+    color: black;
+}
+
+nav{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5rem 5rem;
+    height: 40px;
+}
+
+nav li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .8rem 2.5rem;
+    background-color:  white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .15s ease-in;
+}
+
+nav li:hover a{
+    background-color:  rgb(253, 137, 137);
+    color: white;
+    height: 10px;
+}
+
+main{
+    /* max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 2rem 4rem;
+    flex: 1; */
+
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+}
+
+main .content{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main .brnd{
+    background-color: rgb(253, 137, 137);
+}
+main .content .content-description{
+    flex: 1 1;
+}
+
+main .content .content-description .title{
+    font-size: 3.5rem;
+    margin-block: 1rem;
+    color: white;
+}
+
+main .content .content-description p{
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+main .content .content-img{
+    flex: 1;
+    display: flex;
+}
+
+main .content .content-img img{
+    margin: auto;
+    min-width: 250px;
+    width: 300px;
+}
+
+main .wisata{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+main .wisata .title{
+    font-size: 3.5rem;
+    margin-block: 1rem;
+}
+
+main .wisata p{
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+main .wisata .wisata-slide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .wisata .wisata-slide .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: transform .5s ease;
+    width: 30%;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+main .wisata .wisata-slide .card:hover{
+    transform: scale(1.1);
+}
+
+main .wisata .wisata-slide .card .container{
+    padding: 2px 16px;
+}
+
+main .budaya .title{
+    font-size: 3.5rem;
+    margin-block: 1rem;
+    text-align: center;
+}
+
+main .budaya p{
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+main .budaya{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main .pelajar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main .pelajar .title{
+    font-size: 3.5rem;
+    margin-block: 1rem;
+    text-align: center;
+}
+
+main .pelajar p{
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+main .pelajar .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .5s ease;
+}
+
+main .pelajar .card img{
+    height: 700px;
+}
+
+main .budaya .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgb(253, 137, 137);
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: transform .5s ease;
+}
+
+main .budaya .card:hover{
+    transform: scale(1.02);
+}
+
+main .budaya .card .budaya-img img{
+    border-radius: 10px;
+    width: 250px;
+}
+
+main .budaya .card .teks{
+    margin-left: 10px;
+    font-weight: lighter;
+}
+
+aside .card{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: transform .5s ease;
+}
+
+aside .card:hover{
+    transform: scale(1.2);
+}
+
+aside .card .card-img img{
+    height: 150px;
+    border-radius: 60%;
+}
+
+aside .card .cards{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+aside .card .teks{
+    text-align: left;
+    padding: 20px
+}
