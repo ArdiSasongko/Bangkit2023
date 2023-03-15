@@ -72,3 +72,4 @@ class Animal{
    console.log(myRabbit)
    console.log(myEagle)
 
+
